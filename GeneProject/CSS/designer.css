@@ -1,0 +1,230 @@
+#opener{
+	/*background-image: url(Country_bridge.jpg);*/
+	height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	-webkit-filter: grayscale(30%);
+	margin-left: -1%;
+	margin-right: -1%;
+    margin-top: -1%;
+    border: 0px;
+}
+#opener .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    transition: opacity 1s ease-in-out;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0;
+}
+#opener .slide.show {
+    opacity: 1;
+}
+
+#opener .welcome{
+    position: absolute;
+    top:0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    border: #ffdb58 solid;
+    /*border-spacing: 15px 30px;*/
+}
+
+
+#opener h1{
+	text-align: center;
+	/*color: #E1B52A;*/
+    padding-top:30px;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: #ffdb58;
+    font-size: 300%;
+    font-weight: bold;
+    z-index: 2;
+    display: inline-block;
+    width:fit-content; 
+    width:-webkit-fit-content; 
+    width:-moz-fit-content;
+    /*position: fixed;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: -1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 36px;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: underline;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#content{
+    
+    color: #636b6f;
+    font-size: 120%;
+}
+
+#content .account{
+    text-align: center;
+    clear: right;
+    padding-top: 25px;
+
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+#content .account button{
+    align-self: center;
+    background-color: #008CBA;; /* Blue */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#content .account button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#content .intro{
+    padding: 8%;
+
+}
+
+#content .intro img{
+    float: left;
+    padding-right: 12px;
+    width: 48%;
+    padding-bottom: 40px;
+    border-radius: 25px;
+    
+}
+
+#content h1,h2,h3,h4,h5,h6{
+    text-align:center;
+    font-size: 240%;
+	
+}
+
+#content .split{
+    background: #778899;
+    background: linear-gradient(#2F4F4F, #778899);
+    height: 36px;
+    clear: left;
+    padding:0%;
+    padding-bottom: 15px;
+    border-top-right-radius: 40px;
+}
+
+
+#content .history{
+    background-image: url("rising.jpg");
+    min-height: 700px;
+    clear: left;
+    padding-left: 0%;
+    background-size: cover;
+}
+
+.history{
+    padding: 0;
+    float: left;
+    position: relative;
+    /*opacity: 0.65;*/
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+    filter: sepia(.20);
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10px;
+    z-index: -1;
+}
+.history p{
+    padding-left: 26px;
+    color: rgb(161, 223, 223);
+    font-size: 120%;
+
+}
+
+.text-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 45%;
+}
+#content .split2{
+    background: #778899;
+    background: linear-gradient( #778899,#2F4F4F);
+    height: 2px;
+    clear: left;
+    padding:0%;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom: #2F4F4F solid;
+}
+
+
+
+#content .tech{
+    padding: 8%;
+
+    padding-top: 4%;
+}
+
+#content .tech img{
+    float: right;
+    width: 60%;
+    height: auto;
+
+}
