@@ -48,7 +48,7 @@
     padding-left: 25%;
     padding-right: 25%;
     color: #ffdb58;
-    font-size: 300%;
+    font-size: 250%;
     font-weight: bold;
     z-index: 2;
     display: inline-block;
@@ -77,9 +77,9 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 8px 36px;
+    padding: 5px 36px;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 120%;
 }
 
 li a:hover {
@@ -97,11 +97,18 @@ li a:hover {
     font-size: 120%;
 }
 
+/*Account Style*/
+
 #content .account{
     text-align: center;
     clear: right;
     padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
 
+#content .account hr{
+    margin-bottom: 4%;
 }
 
 .divider{
@@ -130,6 +137,10 @@ li a:hover {
 #content .account button:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+/*Account Style Fin*/
+
+
+/*Intro Style*/
 
 #content .intro{
     padding: 8%;
@@ -147,10 +158,12 @@ li a:hover {
 
 #content h1,h2,h3,h4,h5,h6{
     text-align:center;
-    font-size: 240%;
+    font-size: 210%;
 	
 }
 
+
+/*History*/
 #content .split{
     background: #778899;
     background: linear-gradient(#2F4F4F, #778899);
@@ -213,7 +226,7 @@ li a:hover {
     border-bottom-right-radius: 10px;
     border-bottom: #2F4F4F solid;
 }
-
+/*History Style Fin.*/
 
 
 #content .tech{
@@ -228,3 +241,10 @@ li a:hover {
     height: auto;
 
 }
+
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(6px);
+  }
