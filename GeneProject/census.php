@@ -9,16 +9,17 @@
 
     <body style="background-color: #fff;">
 
-    <ul>
-        <li><a class="active" href="welcome.php#content">Home</a></li>
-        <li><a href="morpeth.php#morth">Morpeth</a></li>
-        <li><a href="census.php">Census Archives</a></li>
-        <li style="float: right;"><a href=''>Sign Up</a></li>
-        <li style="float: right;"><a href=''>Login</a></li>
-    </ul>
+        <ul>
+            <li><a class="active" href="welcome.php#content">Home</a></li>
+            <li><a href="morpeth.php#morth">Morpeth</a></li>
+            <li><a href="soundex.html">Irish Soundex</a></li>
+            <li><a href="census.php">Census Archives</a></li>
+            <li style="float: right;"><a href=''>Sign Up</a></li>
+            <li style="float: right;"><a href=''>Login</a></li>
+        </ul>
 
     <div id="content">
-        <div class="intro">
+        <div class="intro" style="padding-top: 2%;padding-bottom:2%">
             <h2>Surviving non-fragmentary Irish census records 1821-1871</h2>
             <hr style="color: green;background-color: green;height: 5px;">
             
@@ -29,6 +30,9 @@
                 others are heads of household plus number of people in house only.
                 The list includes some unofficial census material but excludes those that only name people of a specific religion.
                 </p>
+
+                <h2 id="desc">Abbreviation</h2>
+
                 <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
                     style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
                     mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
@@ -167,8 +171,7 @@
                 
             </div>
         </div>
-        <br>
-        <hr>
+
         <div id="dataSet">
         <?php
             
